@@ -56,6 +56,8 @@ def respuesta(message):
     res = get_response(ints, intents)
     return res
 
+
+#Iniciamos el chatbot con el mensaje
 while True:
     message = input()
     print(respuesta(message))
